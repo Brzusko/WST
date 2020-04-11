@@ -18,6 +18,15 @@ _global_script_class_icons={
 config/name="WST_3D"
 config/icon="res://icon.png"
 
+[layer_names]
+
+3d_physics/layer_1="Player"
+3d_physics/layer_2="Monster"
+3d_physics/layer_3="Cameras"
+3d_physics/layer_4="Environment"
+3d_physics/layer_5="Building"
+3d_physics/layer_6="Pickable"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
