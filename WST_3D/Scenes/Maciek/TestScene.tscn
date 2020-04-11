@@ -6,7 +6,7 @@
 script = ExtResource( 1 )
 
 [node name="Floor" type="CSGBox" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.647114, 7.62939e-06, 0.988441 )
+transform = Transform( 1.02277, 0, 0, 0, 1.02277, 0, 0, 0, 1.02277, 0.647114, 7.62939e-06, 0.988441 )
 use_collision = true
 width = 99.3234
 height = 0.503816
@@ -14,12 +14,15 @@ depth = 101.213
 
 [node name="Box001" type="CSGBox" parent="Floor"]
 transform = Transform( 1.32787, 0, 0, 0, 0.570647, 0, 0, 0, 1, -0.695495, 0.821958, -3.56739 )
+visible = false
 
 [node name="Box002" type="CSGBox" parent="Floor"]
-transform = Transform( 0.73287, 0, 0, 0, 0.660738, 0, 0, 0, 1, 2.32069, 0.969267, -3.56739 )
+transform = Transform( 1.32787, 0, 0, 0, 0.570647, 0, 0, 0, 1, 2.02256, 0.821958, -3.56739 )
+visible = false
 
 [node name="Box003" type="CSGBox" parent="Floor"]
-transform = Transform( 0.73287, 0, 0, 0, 0.660738, 0, 0, 0, 1, -4.35043, 0.969267, -3.56739 )
+transform = Transform( 1.32787, 0, 0, 0, 0.570647, 0, 0, 0, 1, -3.43271, 0.821958, -3.56739 )
+visible = false
 
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.837908, -0.788928 )
