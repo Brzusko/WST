@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public class Camera : Node
+public class TestScene : Node
 {
 	// Declare member variables here. Examples:
 	// private int a = 2;
